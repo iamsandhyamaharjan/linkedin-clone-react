@@ -178,14 +178,14 @@ a{
           position:relative;
           text-decoration:none;
 
-}
+
 span{
           color: rgba(0, 0, 0, 0.6);
           display:flex;
           align-items:center;
 }
 @media(max-width: 768px){
-          min-width:80px;
+          min-width:73px;
 }
 }
 &:hover, &:active{
