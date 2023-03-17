@@ -1,4 +1,5 @@
 import Styled from 'styled-components'
+import { connect } from 'react-redux'
 
 const Login = (props) => {
           return <Container>
@@ -26,7 +27,8 @@ const Login = (props) => {
 }
 
 const Container = Styled.div`
-padding:0px`;
+{padding:0px}`;
+
 const Nav = Styled.nav`
 max-width: 1128px;
 margin:auto;
@@ -150,4 +152,10 @@ color:rgba(0,0,0,0.6);
 }
 
 `
-export default Login;
+;
+const mapStateToProps = (state) =>{
+          return{};
+};
+const mapDispatchToProps = (dispatch)=>({});
+
+export default connect(mapStateToProps,mapDispatchToProps)(Login);
